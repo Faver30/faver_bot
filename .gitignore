@@ -1,24 +1,17 @@
-﻿# Node
-node_modules/
-npm-debug.log*
-yarn.lock
-
-# Credenciales/entornos
+﻿node_modules/
 .env
 *.env
 *.pem
 *.key
+sa_key_oneline.txt
 
-# Baileys (carpetas comunes)
+# Baileys / sesiones
+qr_code/
 auth_info_baileys/
 baileys_auth/
 session/
 sessions/
-tmp/
-cache/
-media/
 
-# Logs y temporales
+# logs/temp
 *.log
 logs/
-.DS_Store
